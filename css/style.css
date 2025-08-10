@@ -1,0 +1,319 @@
+@import url(./fonts.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+}
+
+body {
+    background: #151515;
+}
+
+/* header start */
+.container {
+    max-width: 1140px;
+    width: 100%;
+    height: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 6px 0;
+    background: #282828;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__nav-menu {
+    gap: 30px;
+    display: flex;
+}
+
+.header__nav-menu_list {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.header__nav-link {
+    gap: 30px;
+    display: flex;
+
+}
+
+.header__nav-menu_list-item-link {
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
+}
+
+/* header end */
+/* banner start */
+.banner {
+    background: url(../img/bg.png) no-repeat center/cover;
+    min-height: 700px;
+}
+
+.banner__wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    gap: 38px;
+}
+
+.banner__title {
+    font-family: "Prosto One";
+    font-weight: 400;
+    font-size: 100px;
+    color: #fff;
+
+}
+
+.banner__link {
+    background: #fff;
+    display: flex;
+    padding: 14px;
+    gap: 12px;
+    border-radius: 10px;
+
+}
+
+.banner__link-text {
+    font-weight: 500;
+    font-size: 20px;
+    color: #171718;
+    text-transform: uppercase;
+
+}
+
+/* banner end */
+
+/* details start */
+.details {
+    margin: 30px 0 50px;
+}
+
+.details__wrap {
+    display: flex;
+    gap: 30px;
+}
+
+.details__left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 538px;
+}
+
+.details__left-text {
+    font-weight: 500;
+    font-size: 22px;
+    color: #fff;
+
+}
+.details__right-img{
+    max-width: 552px;
+    width: 100%;
+}
+.details__right-img img{
+    width: 100%;
+}
+
+/* details end */
+
+/* pods start */
+.pods {
+    margin-bottom: 50px;
+}
+
+.pods__wrap {
+    display: flex;
+    gap: 87px;
+}
+
+.pods__right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
+}
+
+.pods__right-text {
+    font-weight: 500;
+    font-size: 22px;
+    color: #fff;
+}
+.pods__left-img{
+    max-width: 457px;
+    width: 100%;
+}
+.pods__left-img img{
+    width: 100%;
+}
+/* pods end */
+
+/* airpods start */
+.airpods {
+    margin-bottom: 80px;
+}
+
+.airpods__wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.airpods__center-img {
+    width: 268px;
+    height: 100%;
+    position: relative;
+}
+
+.airpods__center-img::before {
+    content: "";
+    background: #C4C4C4;
+    width: 61px;
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: -74px;
+}
+
+.airpods__center-img::after {
+    content: "";
+    background: #C4C4C4;
+    width: 61px;
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -74px;
+}
+
+.airpods__left {
+    display: flex;
+    align-items: center;
+    max-width: 333px;
+}
+
+.airpods__left-text {
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
+    text-align: end;
+
+}
+
+.airpods__right {
+    align-items: center;
+    display: flex;
+    max-width: 333px;
+}
+
+.airpods__right-text {
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
+    text-align: start;
+}
+
+
+
+/* airpods end */
+
+/* production start */
+.production {
+    margin-bottom: 55px;
+}
+
+.production__wrap {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.production__cards {
+    background: #fff;
+    border-radius: 6px;
+    padding: 15px 47px;
+}
+
+.production__cards-title {
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.production__cards-desc {
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin: 10px 0 20px;
+    text-align: center;
+}
+
+.production__cards-btn_text {
+    background: #151515;
+    color: #fff;
+    padding: 8px 58px;
+}
+
+.production__cards-img {
+    text-align: center;
+}
+
+/* production end */
+
+/* footer start */
+.footer {
+    padding: 81px 0;
+    background: #282828;
+    position: relative;
+}
+
+.footer {
+    background: #282828;
+    padding: 81px 0;
+}
+
+.footer__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.footer__wrap-list_item-link {
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
+}
+
+.footer__wrap-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.footer__wrap-link{
+    display: flex;
+    gap: 30px;
+}
+
+/* footer end */
